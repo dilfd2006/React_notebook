@@ -1,0 +1,49 @@
+.journal-form{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: center;
+    gap: 30px;
+}
+
+
+.form-label{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    min-width: 150px;
+}
+
+.form-row{
+    display: flex;
+    align-items: center;
+    width: 100%;
+}
+
+textarea{
+    border:3px solid hsl(0, 7%, 19%) !important;
+}
+.input{
+   border: none;
+   background: none;
+   font-size: 32px;
+   font-size: 14px;
+   font-weight: 600;
+   font-family: "Inter", sans-serif;
+   border-bottom: 3px solid #342d2d;
+   width: 100%;
+   outline: none;
+}
+
+.delete{
+    border: none;
+    background: none;
+    cursor: pointer;
+    padding: 0;
+    height: 30px;
+    margin-left: 30px;
+}
+.invalid{
+    border: 1px solid red;
+    background: rgb(73, 7, 7);
+}

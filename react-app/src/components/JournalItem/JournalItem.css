@@ -1,0 +1,30 @@
+
+.journal-item__header{
+    font-weight: 600;
+    font-style: normal;
+    font-size: 18px;
+    line-height: 28px;
+}
+
+.journal-item__date{
+    color: rgba(255, 255, 255, 0.4);
+    font-weight: 400;
+    font-style: normal;
+    font-size: 16px;
+    line-height: normal;
+}
+
+.journal-item__body{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.journal-item__text{
+    color: rgba(255, 255, 255, 0.6);
+    font-weight: 400;
+    font-style: normal;
+    font-size: 16px;
+    line-height: normal;
+    overflow: hidden;
+}
